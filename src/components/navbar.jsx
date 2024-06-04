@@ -3,11 +3,11 @@ import React from 'react';
 const Navbar = () => {
     
     return (
-        <div className="bg-white flex justify-between">
+        <div className="bg-white md:flex md:justify-between">
             <div className="logo">
                 <img src="/logo.svg" alt="Oja mi logo"/>
             </div>
-            <div className="nav-items mt-10 font-inter text-gray-600">
+            <div className="hidden md:block nav-items mt-10 font-inter text-gray-600">
                 <ul className="list-none flex">
                     <li className="mr-5 px-4 py-2 hover:rounded-md hover:bg-gray-100"><a href="#">Acceil</a></li>
                     <li className="mr-5 px-4 py-2 hover:rounded-md hover:bg-gray-100"><a href="#">Avantages</a></li>
@@ -21,13 +21,6 @@ const Navbar = () => {
                                 </svg>
                             </a>
 
-                          {/*  <div className="origin-top-right absolute right-0 mt-2 w-56 rounded-md shadow-lg bg-white ring-1 ring-black ring-opacity-5">
-                                <div className="py-1" role="menu" aria-orientation="vertical" aria-labelledby="options-menu">
-                                    <a href="#" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-gray-900" role="menuitem">Option 1</a>
-                                    <a href="#" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-gray-900" role="menuitem">Option 2</a>
-                                    <a href="#" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-gray-900" role="menuitem">Option 3</a>
-                                </div>
-                            </div>*/}
                         </div>
                     </li>
                 </ul>

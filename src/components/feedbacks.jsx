@@ -27,7 +27,7 @@ const feedbacks = [
 ];
 const Feedbacks = () => {
     return (
-        <div className="bg-fruits-gray bg-fruits  w-full bg-cover py-20 py-10  flex justify-around items-center">
+        <div className=" bg-fruits-gray bg-fruits  w-full bg-cover py-20 px-1  md:grid md:grid-cols-2 lg:grid-cols-3">
             {
                 feedbacks.map((feedback, index)=>
                <Feedback key={index} feedback={feedback}/>)

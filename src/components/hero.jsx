@@ -3,13 +3,13 @@ import React from 'react';
 const Hero = () => {
     return (
             <div className="bg-gray-200 mb-4 w-full bg-cover py-2 relative">
-                <div className="md:flex bg-hero bg-contain   md:justify-between">
+                <div className="md:flex bg-hero bg-contain  md:justify-between">
                     <div className=" ml-10">
-                        <div className="mt-10 flex flex-col justify-between">
-                            <div className=" flex flex-col font-inter justify-around text-hero-green font-extrabold text-3xl lg:text-5xl">
-                                <span className="py-4 ">Sélection gourmande,</span>
-                                <span className="py-4">livraison rapide,</span>
-                                <span className="py-4">votre festin à portée de clic!</span>
+                        <div className="mt-10  flex flex-col justify-between">
+                            <div className=" flex flex-col font-inter justify-around text-hero-green font-extrabold  text-3xl lg:text-5xl">
+                                <span className="py-4 mx-auto">Sélection gourmande,</span>
+                                <span className="py-4 mx-auto">livraison rapide,</span>
+                                <span className="py-4 mx-auto">votre festin à portée de clic!</span>
                             </div>
                             <div className="flex flex-col mt-10 text-gray-700 font-poppins text-xl">
                                 <span className="py-2">Téléchargez-la sur l'Apple Store ou Google Play</span>

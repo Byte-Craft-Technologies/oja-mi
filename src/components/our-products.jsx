@@ -64,13 +64,13 @@ const OurProducts = () => {
                 {currentIndexes.map(i => <Product key={i} title={products[i].name} image={products[i].image}/>)}
                 {/* Left Arrow */}
                 <div
-                    className=" absolute top-[40%] translate-x-0 left-[-20px] shadow shadow-gray-500 text-xl rounded-full p-2 bg-white text-gray-500 cursor-pointer">
-                    <BsChevronCompactLeft onClick={prevSlide} size={30}/>
+                    className=" absolute top-[40%] translate-x-0 left-0 shadow shadow-gray-500 text-xl rounded-full p-2 bg-white text-gray-500 cursor-pointer">
+                    <BsChevronCompactLeft onClick={prevSlide} size={20}/>
                 </div>
                 {/* Left Arrow */}
                 <div
-                    className="absolute top-[40%] translate-x-0  right-0 shadow shadow-gray-500 text-2xl rounded-full p-2 bg-white text-gray-500 cursor-pointer">
-                    <BsChevronCompactRight onClick={nextSlide} size={30}/>
+                    className="absolute top-[40%] translate-x-0  right-4 shadow shadow-gray-500 text-2xl rounded-full p-2 bg-white text-gray-500 cursor-pointer">
+                    <BsChevronCompactRight onClick={nextSlide} size={20}/>
                 </div>
             </div>
         </div>
